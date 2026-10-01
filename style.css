@@ -52,7 +52,7 @@ main { margin-left: var(--side); }
 
 .intro { padding: 72px 56px 56px; border-bottom: var(--line); }
 .now {
-  display: inline-block; margin: 0 0 40px;
+  display: inline-block; margin: 0 0 32px;
   padding: 8px 14px; border: var(--line); background: var(--accent); box-shadow: var(--shadow);
   font-size: 16px; font-weight: 600;
 }
@@ -62,9 +62,9 @@ h1 {
   font-size: clamp(64px, 9vw, 150px); line-height: 0.9; letter-spacing: 0.005em;
   margin: 0 0 32px;
 }
-.lede { font-size: 21px; font-weight: 500; max-width: 58ch; margin: 0 0 48px; }
+.lede { font-size: clamp(24px, 2.4vw, 32px); font-weight: 600; line-height: 1.3; letter-spacing: -0.01em; max-width: 34ch; margin: 0 0 48px; }
 
-.stats { display: grid; grid-template-columns: repeat(4, 1fr); margin: 0; border: var(--line); box-shadow: var(--shadow); background: #fff; }
+.stats { display: grid; grid-template-columns: 1fr 1fr 2fr; margin: 0; border: var(--line); box-shadow: var(--shadow); background: #fff; }
 .stats div { padding: 18px 20px; border-right: var(--line); }
 .stats div:last-child { border-right: 0; }
 .stats dt { font-size: 15px; font-weight: 600; color: var(--soft); }
@@ -121,9 +121,10 @@ p { margin: 0 0 12px; }
 
 /* Contact */
 .contact { padding: 56px; background: var(--accent); }
+.contact h2 { font-size: clamp(32px, 3.5vw, 48px); margin-bottom: 20px; }
 .mail {
   display: inline-block; font-family: var(--display); text-transform: uppercase;
-  font-size: clamp(32px, 5.5vw, 92px); line-height: 1; text-decoration-thickness: 5px; text-underline-offset: 10px;
+  font-size: clamp(24px, 3vw, 44px); line-height: 1.1; text-decoration-thickness: 3px; text-underline-offset: 6px;
   word-break: break-word; margin-bottom: 48px;
 }
 .mail:hover { background: var(--ink); color: var(--accent); }
@@ -138,9 +139,10 @@ p { margin: 0 0 12px; }
   .side-links { flex-direction: row; flex-wrap: wrap; gap: 6px 20px; margin-top: 16px; }
   main { margin-left: 0; }
   .intro, .sec, .contact { padding: 40px 20px; }
-  .stats { grid-template-columns: repeat(2, 1fr); }
+  .stats { grid-template-columns: 1fr 1fr; }
   .stats div:nth-child(2) { border-right: 0; }
   .stats div:nth-child(-n+2) { border-bottom: var(--line); }
+  .stats div:nth-child(3) { grid-column: 1 / -1; }
   .postern { grid-template-columns: 1fr; }
   .matrix { grid-template-columns: 1fr 1fr; }
   .matrix div:nth-child(2) { border-right: 0; }
