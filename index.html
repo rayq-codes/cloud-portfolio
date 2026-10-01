@@ -7,143 +7,137 @@
   <meta name="description" content="Cybersecurity and Information Science student at UMD, AI Cloud Intern at Rackner.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="bar">
-    <a href="#top" class="bar-name">R. Quarshie</a>
-    <nav>
-      <a href="#work">Work</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="resume.pdf" target="_blank" rel="noopener">Resume</a>
-      <a href="#contact">Contact</a>
+  <aside class="side">
+    <a href="#top" class="side-name">Raymond<br>Quarshie</a>
+    <p class="side-role">Cybersecurity &amp; Information Science, UMD '28<br>AI Cloud Intern, Rackner</p>
+    <nav class="side-nav">
+      <a href="#work"><span>01</span>Work</a>
+      <a href="#projects"><span>02</span>Projects</a>
+      <a href="#skills"><span>03</span>Skills</a>
+      <a href="#contact"><span>04</span>Contact</a>
     </nav>
-  </header>
-
-  <section id="top" class="intro">
-    <div class="intro-main">
-      <h1>Raymond<br>Quarshie</h1>
-      <p class="statement">I study cybersecurity at Maryland and build cloud systems that keep data where it belongs.</p>
-      <p class="intro-links">
-        <a href="resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
-        <a href="https://github.com/rayq-codes" target="_blank" rel="noopener">github.com/rayq-codes</a>
-        <a href="mailto:r.rayquarshie@gmail.com">r.rayquarshie@gmail.com</a>
-      </p>
+    <div class="side-links">
+      <a href="resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+      <a href="https://github.com/rayq-codes" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:r.rayquarshie@gmail.com">Email</a>
     </div>
-    <dl class="facts">
-      <div><dt>Now</dt><dd>AI Cloud Intern, Rackner</dd></div>
-      <div><dt>Study</dt><dd>B.S. Cybersecurity &amp; Information Science, University of Maryland</dd></div>
-      <div><dt>Class of</dt><dd>2028 · GPA 3.75</dd></div>
-      <div><dt>Based</dt><dd>College Park, MD</dd></div>
-      <div><dt>Looking for</dt><dd>Cloud security, security analysis, software engineering internships</dd></div>
-    </dl>
-  </section>
+  </aside>
 
-  <section id="work" class="block">
-    <h2><span>01</span>Work</h2>
-    <table class="data">
-      <thead>
-        <tr><th>Period</th><th>Role</th><th>Where</th><th>What I do</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="mono">06.2026 – now</td>
-          <td class="strong">AI Cloud Intern</td>
-          <td>Rackner</td>
-          <td>Build on Postern, a zero-trust data governance platform: connectors, the audit viewer, entity resolution, and security reviews of its governance model.</td>
-        </tr>
-        <tr>
-          <td class="mono">10.2025 – now</td>
-          <td class="strong">IT Help Desk Technician</td>
-          <td>UMD Division of IT</td>
-          <td>Handle about 15 users and tickets a day across scheduling systems and resource access.</td>
-        </tr>
-        <tr>
-          <td class="mono">03.2026</td>
-          <td class="strong">Cybersecurity Accelerator Intern</td>
-          <td>The Washington Center</td>
-          <td>Short program on security operations and enterprise IT environments.</td>
-        </tr>
-        <tr>
-          <td class="mono">2023 – 2024</td>
-          <td class="strong">Treasurer</td>
-          <td>National CS Honor Society</td>
-          <td>Ran chapter finances; taught elementary students CS fundamentals.</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+  <main>
+    <section id="top" class="intro">
+      <p class="now"><b>Now</b> AI Cloud Intern at Rackner, College Park MD</p>
+      <h1>Secure cloud.<br>Traceable data.</h1>
+      <p class="lede">I'm a cybersecurity student at the University of Maryland. I build systems where AI can use enterprise data without ever seeing what it shouldn't, and I'm looking for internships in cloud security, security analysis and software engineering.</p>
 
-  <section id="projects" class="block">
-    <h2><span>02</span>Projects</h2>
+      <dl class="stats">
+        <div><dt>GPA</dt><dd>3.75</dd></div>
+        <div><dt>Graduating</dt><dd>2028</dd></div>
+        <div><dt>Public repos</dt><dd>6</dd></div>
+        <div><dt>Tickets / day</dt><dd>~15</dd></div>
+      </dl>
+    </section>
 
-    <article class="feature">
-      <div class="feature-head">
-        <h3>Postern</h3>
-        <p class="mono">2026 · Rackner · FastAPI / PostgreSQL / Neo4j / OPA / Presidio / React / Docker</p>
+    <section id="work" class="sec">
+      <h2><span>01</span>Work</h2>
+      <div class="rows">
+        <article class="row">
+          <p class="when">2026 →</p>
+          <div>
+            <h3>AI Cloud Intern <em>Rackner</em></h3>
+            <p>Build on Postern, a zero-trust data governance platform: connectors, the audit viewer, entity resolution, and security reviews of its governance model.</p>
+          </div>
+        </article>
+        <article class="row">
+          <p class="when">2025 →</p>
+          <div>
+            <h3>IT Help Desk Technician <em>UMD Division of IT</em></h3>
+            <p>Handle about 15 users and tickets a day across scheduling systems and resource access.</p>
+          </div>
+        </article>
+        <article class="row">
+          <p class="when">2026</p>
+          <div>
+            <h3>Cybersecurity Accelerator Intern <em>The Washington Center</em></h3>
+            <p>Short program on security operations and enterprise IT environments.</p>
+          </div>
+        </article>
+        <article class="row">
+          <p class="when">2023</p>
+          <div>
+            <h3>Treasurer <em>National CS Honor Society</em></h3>
+            <p>Ran chapter finances and taught elementary students CS fundamentals.</p>
+          </div>
+        </article>
       </div>
-      <p class="feature-lede">Lets people ask plain-English questions over enterprise databases, files and APIs without the AI ever seeing raw data.</p>
-      <ol class="feature-points">
-        <li><strong>Policy engine.</strong> Open Policy Agent issues temporary, purpose-scoped grants; sensitive requests wait for a human to approve.</li>
-        <li><strong>PII redaction.</strong> Microsoft Presidio masks and tokenizes personal data before it leaves the query path.</li>
-        <li><strong>Audit log.</strong> Hash-chained and tamper-evident, so every access can be traced.</li>
-      </ol>
-    </article>
+    </section>
 
-    <table class="data">
-      <thead>
-        <tr><th>Year</th><th>Project</th><th>What it is</th><th>Stack</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="mono">2026</td>
-          <td class="strong">This site</td>
-          <td>Static site on a private S3 bucket behind CloudFront, with a serverless visitor counter.</td>
-          <td class="mono">S3, CloudFront, API Gateway, Lambda, DynamoDB</td>
-        </tr>
-        <tr>
-          <td class="mono">2025</td>
-          <td class="strong"><a href="https://github.com/rayq-codes/Firewall-Project" target="_blank" rel="noopener">Firewall Project</a></td>
-          <td>Log parsing and pattern detection that simulate intrusion detection.</td>
-          <td class="mono">Python</td>
-        </tr>
-        <tr>
-          <td class="mono">2025</td>
-          <td class="strong"><a href="https://github.com/rayq-codes/House-Prices-Dataset-Estimator" target="_blank" rel="noopener">House Price Prediction</a></td>
-          <td>Regression model on size, rooms, location and condition; one-hot encoding and feature scaling.</td>
-          <td class="mono">Python, pandas, scikit-learn</td>
-        </tr>
-        <tr>
-          <td class="mono">2025</td>
-          <td class="strong"><a href="https://github.com/rayq-codes/Tricksy-Battle-Card-Game" target="_blank" rel="noopener">Tricksy Battle</a></td>
-          <td>Two-player, turn-based card game with custom rules and scoring.</td>
-          <td class="mono">Python</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+    <section id="projects" class="sec">
+      <h2><span>02</span>Projects</h2>
 
-  <section id="skills" class="block">
-    <h2><span>03</span>Skills</h2>
-    <dl class="skills">
-      <div><dt>Security</dt><dd>Linux, intrusion detection, log analysis, infrastructure security</dd></div>
-      <div><dt>Languages</dt><dd>Python, Bash, Java, JavaScript, C++, SQL, HTML/CSS</dd></div>
-      <div><dt>Cloud &amp; tools</dt><dd>AWS (S3, CloudFront, Lambda, DynamoDB, IAM), Docker, FastAPI, PostgreSQL</dd></div>
-      <div><dt>Data</dt><dd>pandas, scikit-learn, AI/LLM integration</dd></div>
-    </dl>
-  </section>
+      <article class="postern">
+        <div class="postern-title">
+          <p class="label">Main project · 2026</p>
+          <h3>Postern</h3>
+          <p>Ask plain-English questions over enterprise databases, files and APIs, without the AI ever touching raw data.</p>
+        </div>
+        <ul class="postern-parts">
+          <li><b>Policy engine</b>Open Policy Agent issues temporary, purpose-scoped grants. Sensitive requests wait for a human.</li>
+          <li><b>PII redaction</b>Microsoft Presidio masks and tokenizes personal data before it leaves the query path.</li>
+          <li><b>Audit log</b>Hash-chained and tamper-evident, so every access can be traced.</li>
+          <li><b>Stack</b>FastAPI, PostgreSQL, Neo4j, OPA, Presidio, React, Docker</li>
+        </ul>
+      </article>
 
-  <section id="contact" class="block contact">
-    <h2><span>04</span>Contact</h2>
-    <a class="big-link" href="mailto:r.rayquarshie@gmail.com">r.rayquarshie@gmail.com</a>
-  </section>
+      <table class="list">
+        <tbody>
+          <tr>
+            <td class="yr">2026</td>
+            <td class="nm">This site</td>
+            <td>Private S3 bucket behind CloudFront, plus a serverless visitor counter.</td>
+            <td class="st">S3 · CloudFront · API Gateway · Lambda · DynamoDB</td>
+          </tr>
+          <tr>
+            <td class="yr">2025</td>
+            <td class="nm"><a href="https://github.com/rayq-codes/Firewall-Project" target="_blank" rel="noopener">Firewall Project</a></td>
+            <td>Log parsing and pattern detection that simulate intrusion detection.</td>
+            <td class="st">Python</td>
+          </tr>
+          <tr>
+            <td class="yr">2025</td>
+            <td class="nm"><a href="https://github.com/rayq-codes/House-Prices-Dataset-Estimator" target="_blank" rel="noopener">House Price Prediction</a></td>
+            <td>Regression on size, rooms, location and condition, with one-hot encoding and scaling.</td>
+            <td class="st">Python · pandas · scikit-learn</td>
+          </tr>
+          <tr>
+            <td class="yr">2025</td>
+            <td class="nm"><a href="https://github.com/rayq-codes/Tricksy-Battle-Card-Game" target="_blank" rel="noopener">Tricksy Battle</a></td>
+            <td>Two-player, turn-based card game with custom rules and scoring.</td>
+            <td class="st">Python</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-  <footer class="foot">
-    <span>Visitors: <b id="count">…</b></span>
-    <span>Served from S3 via CloudFront. Counter: API Gateway → Lambda → DynamoDB.</span>
-  </footer>
+    <section id="skills" class="sec">
+      <h2><span>03</span>Skills</h2>
+      <div class="matrix">
+        <div><h3>Security</h3><p>Linux<br>Intrusion detection<br>Log analysis<br>Infrastructure security</p></div>
+        <div><h3>Languages</h3><p>Python<br>Bash · Java<br>JavaScript · C++<br>SQL · HTML/CSS</p></div>
+        <div><h3>Cloud</h3><p>AWS: S3, CloudFront,<br>Lambda, DynamoDB, IAM<br>Docker</p></div>
+        <div><h3>Data &amp; APIs</h3><p>FastAPI · PostgreSQL<br>pandas · scikit-learn<br>LLM integration</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2><span>04</span>Say hi</h2>
+      <a class="mail" href="mailto:r.rayquarshie@gmail.com">r.rayquarshie@gmail.com</a>
+      <p class="foot">Visitors: <b id="count">…</b> &nbsp;/&nbsp; Served from S3 via CloudFront. Counter: API Gateway → Lambda → DynamoDB.</p>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>
