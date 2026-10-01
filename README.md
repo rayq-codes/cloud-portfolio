@@ -1,6 +1,3 @@
-# cloud-portfolio
-Serverless portfolio site hosted on AWS: S3 + CloudFront for the site, API Gateway + Lambda + DynamoDB for a live visitor counter. Built while studying for AWS Cloud Practitioner.
-
 # Raymond's Cloud Portfolio
 
 My personal portfolio site, hosted entirely on AWS with a serverless visitor counter. I built it while studying for the **AWS Certified Cloud Practitioner** exam, so every service on here is one I actually set up by hand.
